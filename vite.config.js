@@ -3,7 +3,7 @@ import { defineConfig } from 'vite';
 import { VitePWA } from 'vite-plugin-pwa';
 
 export default defineConfig({
-  base: 'https://github.com/loqmanali/vite-PWA',
+  base: '/vite-PWA/',
   plugins: [
     react(),
     VitePWA({

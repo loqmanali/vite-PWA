@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) navigator.serviceWorker.register('/loqmanali/vite-PWA/dev-sw.js?dev-sw', { scope: '/loqmanali/vite-PWA/', type: 'classic' })
