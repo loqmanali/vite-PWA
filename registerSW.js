@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('https://github.com/loqmanali/vite-PWA/sw.js', { scope: 'https://github.com/loqmanali/vite-PWA/' })})}
